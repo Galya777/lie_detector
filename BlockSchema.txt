@@ -1,0 +1,27 @@
+[Начало]
+    │
+    ▼
+[Инициализация Arduino]
+    │
+    ▼
+[Симулация на сензори]
+(Pulse, GSR, Temp)
+    │
+    ▼
+[Изчисляване на комбиниран скор]
+    │
+    ▼
+[Сравнение с прага]
+    │
+    ├─> [combinedScore > threshold] ──> [LED HIGH, ALERT] 
+    │
+    └─> [combinedScore <= threshold] ──> [LED LOW, NORMAL]
+    │
+    ▼
+[Serial Monitor: печат на стойности]
+    │
+    ▼
+[Изчакване interval]
+    │
+    └─> [Повторение на цикъла]
+
